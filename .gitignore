@@ -16,3 +16,6 @@
 !/log/.keep
 /tmp
 /tmp/cache/assets/sprockets/v3.0
+/tmp/*
+!/tmp/.keep
+/log/development.log
