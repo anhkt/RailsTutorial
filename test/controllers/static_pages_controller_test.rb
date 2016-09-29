@@ -12,6 +12,15 @@ class StaticPagesControllerTest < ActionController::TestCase
     get :help
     assert_response :success
     assert_select "title", "Help | Ruby on Rails Tutorail Sample App"
+<<<<<<< HEAD
+  end
+  
+   test "should get about" do
+    get :about
+    assert_response :success
+    assert_select "title", "About | Ruby on Rails Tutorail Sample App"
+=======
+>>>>>>> Chap-4
   end
   
    test "should get about" do
@@ -19,5 +28,5 @@ class StaticPagesControllerTest < ActionController::TestCase
     assert_response :success
     assert_select "title", "About | Ruby on Rails Tutorail Sample App"
   end
-
+  
 end
